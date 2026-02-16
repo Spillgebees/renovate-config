@@ -32,7 +32,7 @@
   },
   "packageRules": [
     {
-      "description": "Disable routine updates for ASP.NET Core framework packages. Consumer-facing libraries (e.g. Blazor component libraries) should not auto-bump their framework minimum versions, as this forces downstream consumers to upgrade their target framework. This avoids the MudBlazor problem where a library update unexpectedly requires a new .NET SDK.",
+      "description": "Disable routine updates for ASP.NET Core framework packages. Consumer-facing libraries (e.g. Blazor component libraries) should not auto-bump their framework minimum versions, as this forces downstream consumers to upgrade their target framework. This avoids the problem where a library update unexpectedly requires a new .NET SDK.",
       "matchManagers": [
         "nuget"
       ],
